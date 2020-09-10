@@ -1,7 +1,5 @@
 package com.example.movil_taller1;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +8,9 @@ import android.view.MenuItem;
 import android.widget.TabHost;
 import android.widget.Toast;
 
-public class TabHostExample extends AppCompatActivity {
+public class TabHostExample extends TabActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab_host_example);
 
@@ -52,5 +49,7 @@ public class TabHostExample extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), tabId, Toast.LENGTH_SHORT).show();
             }
         });
+
+
     }
 }

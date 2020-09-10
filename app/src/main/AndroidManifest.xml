@@ -9,21 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
         <activity
             android:name=".HomeActivity"
-            android:label="@string/title_activity_my"/>
+            android:label="@string/title_activity_my"></activity>
         <activity
             android:name=".AboutActivity"
-            android:label="@string/title_activity_about"/>
+            android:label="@string/title_activity_about"></activity>
         <activity
             android:name=".ContactActivity"
-            android:label="@string/title_activity_contact"/>
-        <activity android:name=".GridViewExample" />
-=======
+            android:label="@string/title_activity_contact"></activity>
         <activity android:name=".GridViewExample"></activity>
         <activity android:name=".FullImageActivity"></activity>
->>>>>>> 54e6ac92c9c67f7b54e6f17bdec7e1f1229fc9f7
         <activity android:name=".TabHostExample" />
         <activity android:name=".RatingBarExample" />
         <activity android:name=".MainActivity">
