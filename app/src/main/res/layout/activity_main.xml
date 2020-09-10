@@ -10,16 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:background="@drawable/fondo3"
+        android:background="@drawable/cubo"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView"
+            style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
             android:layout_width="match_parent"
             android:layout_height="54dp"
             android:gravity="center"
             android:text="Movil Taller # 1"
-            android:textColor="#CD8383"
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
         <Space
@@ -32,8 +33,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Miguel Angel Orjuela"
-            android:textColor="#B00653A5"
-            android:textSize="16sp" />
+            android:textColor="#BA9DFA"
+            android:textSize="18sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -45,8 +46,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Ivan Julian Guerra"
-            android:textColor="#B00653A5"
-            android:textSize="16sp" />
+            android:textColor="#BA9DFA"
+            android:textSize="18sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -58,7 +59,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Ejercicio RatingBar"
-            android:textColor="#A9A0AE"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <Button
@@ -81,7 +82,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Ejercicio TabHost"
-            android:textColor="#A9A0AE"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <Button
@@ -105,7 +106,7 @@
             android:layout_height="42dp"
             android:gravity="center"
             android:text="Ejercicio GridView"
-            android:textColor="#A9A0AE"
+            android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <Button
